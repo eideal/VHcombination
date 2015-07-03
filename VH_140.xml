@@ -1,0 +1,17 @@
+<!--
+This xml file created automatically on: 
+2014-1-23
+-->
+<!DOCTYPE Combination  SYSTEM 'HistFactorySchema.dtd'>
+
+<Combination OutputFilePrefix="MEAS" >
+
+  <Input>VHhh_140_zh.xml</Input>
+  <Input>VHhh_140_wh.xml</Input>
+
+  <Measurement Name="VH_140" Lumi="1" LumiRelErr="0.028" BinLow="0" BinHigh="1" ExportOnly="True"  >
+    <POI>SigXsecOverSM </POI>  
+    <ParamSetting Const="True">Lumi mu_BR_tautau mu_XS8_ggH mu_XS8_VBF mu_XS8_WH mu_XS8_ZH </ParamSetting>
+  </Measurement> 
+
+</Combination>

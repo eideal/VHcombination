@@ -1,0 +1,18 @@
+<!--
+This xml file created automatically on: 
+2015-2-20
+-->
+<!DOCTYPE Combination  SYSTEM 'HistFactorySchema.dtd'>
+
+<Combination OutputFilePrefix="./results/MEAS" >
+
+
+  <Input>./workspace20Feb/VHhh_130_zh.xml</Input>
+  <Input>./workspace20Feb/VHhh_130_wh.xml</Input>
+
+  <Measurement Name="VHhh_130" Lumi="1" LumiRelErr="0.028" ExportOnly="True"  >
+    <POI>SigXsecOverSM</POI>  
+    <ParamSetting Const="True">Lumi mu_XS8_ggH mu_XS8_VBF mu_XS8_WH mu_XS8_ZH</ParamSetting>
+  </Measurement> 
+
+</Combination>

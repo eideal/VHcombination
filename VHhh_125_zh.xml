@@ -1,0 +1,43 @@
+<!--
+This xml file created automatically on: 
+2015-2-20
+-->
+<!DOCTYPE Channel  SYSTEM 'HistFactorySchema.dtd'>  
+
+  <Channel Name="zh" InputFile="" >
+
+    <Data HistoName="zh_Data" InputFile="workspace20Feb.root" HistoPath=""  /> 
+
+    <StatErrorConfig RelErrorThreshold="0.05" ConstraintType="Poisson" /> 
+
+    <Sample Name="zh_AntitauEvents"  HistoPath=""  HistoName="zh_AntitauEvents"  InputFile="workspace20Feb.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+    </Sample>
+
+
+    <Sample Name="zh_ZH125"  HistoPath=""  HistoName="zh_ZH125"  InputFile="workspace20Feb.root"  NormalizeByTheory="True" >
+      <OverallSys Name="ATLAS_LUMI_2012"  High="1.028"  Low="0.972"   /> 
+      <OverallSys Name="ATLAS_EWK"  High="1.02"  Low="0.98"   /> 
+      <OverallSys Name="ATLAS_UE_VH"  High="1.02"  Low="0.98"   /> 
+      <OverallSys Name="ATLAS_PDFacc_VH"  High="1.01"  Low="0.99"   /> 
+      <OverallSys Name="ATLAS_QCDacc_VH"  High="1.01"  Low="0.99"   /> 
+      <OverallSys Name="ATLAS_BR_tautau"  High="1.057"  Low="0.943"   /> 
+      <NormFactor Name="SigXsecOverSM"  Val="0"  High="40"  Low="0"  Const="False"   /> 
+      <NormFactor Name="mu_XS8_ZH"  Val="1"  High="200"  Low="0"  Const="False"   /> 
+    </Sample>
+
+
+    <Sample Name="zh_WH125"  HistoPath=""  HistoName="zh_WH125"  InputFile="workspace20Feb.root"  NormalizeByTheory="True" >
+      <OverallSys Name="ATLAS_LUMI_2012"  High="1.028"  Low="0.972"   /> 
+      <OverallSys Name="ATLAS_EWK"  High="1.02"  Low="0.98"   /> 
+      <OverallSys Name="ATLAS_UE_VH"  High="1.02"  Low="0.98"   /> 
+      <OverallSys Name="ATLAS_PDFacc_VH"  High="1.01"  Low="0.99"   /> 
+      <OverallSys Name="ATLAS_QCDacc_VH"  High="1.01"  Low="0.99"   /> 
+      <OverallSys Name="ATLAS_BR_tautau"  High="1.057"  Low="0.943"   /> 
+      <NormFactor Name="SigXsecOverSM"  Val="0"  High="40"  Low="0"  Const="False"   /> 
+      <NormFactor Name="mu_XS8_WH"  Val="1"  High="200"  Low="0"  Const="False"   /> 
+    </Sample>
+
+
+
+  </Channel>  

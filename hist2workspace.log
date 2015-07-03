@@ -1,0 +1,1006 @@
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+reading input : VH_150.xml
+output file prefix is : MEAS
+Found Channels:  VHhh_150_zh.xml VHhh_150_wh.xml
+
+Creating new measurement: 
+Measurement Name: VH_150	 OutputFilePrefix: 	 POI: SigXsecOverSM	 Lumi: 1	 LumiRelErr: 0.028	 BinLow: 0	 BinHigh: 1	 ExportOnly: 1
+Constant Params:  Lumi mu_BR_tautau mu_XS8_ggH mu_XS8_VBF mu_XS8_WH mu_XS8_ZH
+End Measurement: VH_150
+
+Done Processing Measurements
+Found Measurements:  VH_150
+Parsing Channel: VHhh_150_zh.xml
+Parsing file: VHhh_150_zh.xml : creating a channel named zh
+Setting InputFile for this channel: 
+Creating Data Element
+Created Data Node with InputFile: workspace20Feb.root HistoName: zh_Data HistoPath: 
+Creating StatErrorConfig Element
+Created StatErrorConfig Element with Constraint type: 1 RelError Threshold: 0.05
+Creating Sample Element
+Activating StatError
+	 	 Activate: 1	 InputFile: 	 HistoName: 	 histoPath: 
+Created Sample Node with Name: zh_AntitauEvents InputFile: workspace20Feb.root HistoName: zh_AntitauEvents HistoPath: 
+Creating Sample Element
+Making OverallSys:
+	 	 Name: ATLAS_LUMI_2012	 Low: 0.972	 High: 1.028
+Making OverallSys:
+	 	 Name: ATLAS_EWK	 Low: 0.98	 High: 1.02
+Making OverallSys:
+	 	 Name: ATLAS_UE_VH	 Low: 0.98	 High: 1.02
+Making OverallSys:
+	 	 Name: ATLAS_PDFacc_VH	 Low: 0.99	 High: 1.01
+Making OverallSys:
+	 	 Name: ATLAS_QCDacc_VH	 Low: 0.99	 High: 1.01
+Making OverallSys:
+	 	 Name: ATLAS_BR_tautau	 Low: 0.943	 High: 1.057
+Making NormFactor:
+	 	 Name: SigXsecOverSM	 Val: 0	 Low: 0	 High: 40	 Const: 0
+Making NormFactor:
+	 	 Name: mu_XS8_ZH	 Val: 1	 Low: 0	 High: 200	 Const: 0
+Created Sample Node with Name: zh_ZH150 InputFile: workspace20Feb.root HistoName: zh_ZH150 HistoPath: 
+Creating Sample Element
+Making OverallSys:
+	 	 Name: ATLAS_LUMI_2012	 Low: 0.972	 High: 1.028
+Making OverallSys:
+	 	 Name: ATLAS_EWK	 Low: 0.98	 High: 1.02
+Making OverallSys:
+	 	 Name: ATLAS_UE_VH	 Low: 0.98	 High: 1.02
+Making OverallSys:
+	 	 Name: ATLAS_PDFacc_VH	 Low: 0.99	 High: 1.01
+Making OverallSys:
+	 	 Name: ATLAS_QCDacc_VH	 Low: 0.99	 High: 1.01
+Making OverallSys:
+	 	 Name: ATLAS_BR_tautau	 Low: 0.943	 High: 1.057
+Making NormFactor:
+	 	 Name: SigXsecOverSM	 Val: 0	 Low: 0	 High: 40	 Const: 0
+Making NormFactor:
+	 	 Name: mu_XS8_WH	 Val: 1	 Low: 0	 High: 200	 Const: 0
+Created Sample Node with Name: zh_WH150 InputFile: workspace20Feb.root HistoName: zh_WH150 HistoPath: 
+Created Channel: 
+	 Channel Name: zh	 InputFile: 
+	 Data:
+	 	 InputFile: workspace20Feb.root	 HistoName: zh_Data	 HistoPath: 	 HistoAddress: 0
+	 statErrorConfig:
+	 	 RelErrorThreshold: 0.05	 ConstraintType: Poisson
+	 Samples: 
+	 	 Name: zh_AntitauEvents	 	 Channel: zh	 NormalizeByTheory: True	 StatErrorActivate: False
+	 	 	 	 	 InputFile: workspace20Feb.root	 HistName: zh_AntitauEvents	 HistoPath: 	 HistoAddress: 0
+	 	 	 StatError Activate: 1	 InputFile: workspace20Feb.root	 HistName: 	 HistoPath: 	 HistoAddress: 0
+	 	 Name: zh_ZH150	 	 Channel: zh	 NormalizeByTheory: True	 StatErrorActivate: False
+	 	 	 	 	 InputFile: workspace20Feb.root	 HistName: zh_ZH150	 HistoPath: 	 HistoAddress: 0
+	 	 Name: zh_WH150	 	 Channel: zh	 NormalizeByTheory: True	 StatErrorActivate: False
+	 	 	 	 	 InputFile: workspace20Feb.root	 HistName: zh_WH150	 HistoPath: 	 HistoAddress: 0
+	 End of Channel zh
+Parsing Channel: VHhh_150_wh.xml
+Parsing file: VHhh_150_wh.xml : creating a channel named wh
+Setting InputFile for this channel: 
+Creating Data Element
+Created Data Node with InputFile: workspace20Feb.root HistoName: wh_Data HistoPath: 
+Creating StatErrorConfig Element
+Created StatErrorConfig Element with Constraint type: 1 RelError Threshold: 0.05
+Creating Sample Element
+Activating StatError
+	 	 Activate: 1	 InputFile: 	 HistoName: 	 histoPath: 
+Created Sample Node with Name: wh_WHhh_AntitauEvents InputFile: workspace20Feb.root HistoName: wh_WHhh_AntitauEvents HistoPath: 
+Creating Sample Element
+Making OverallSys:
+	 	 Name: ATLAS_LUMI_2012	 Low: 0.972	 High: 1.028
+Making OverallSys:
+	 	 Name: ATLAS_EWK	 Low: 0.98	 High: 1.02
+Making OverallSys:
+	 	 Name: ATLAS_UE_VH	 Low: 0.98	 High: 1.02
+Making OverallSys:
+	 	 Name: ATLAS_PDFacc_VH	 Low: 0.99	 High: 1.01
+Making OverallSys:
+	 	 Name: ATLAS_QCDacc_VH	 Low: 0.99	 High: 1.01
+Making OverallSys:
+	 	 Name: ATLAS_BR_tautau	 Low: 0.943	 High: 1.057
+Making NormFactor:
+	 	 Name: SigXsecOverSM	 Val: 0	 Low: 0	 High: 40	 Const: 0
+Making NormFactor:
+	 	 Name: mu_XS8_WH	 Val: 1	 Low: 0	 High: 200	 Const: 0
+Created Sample Node with Name: wh_ZH150 InputFile: workspace20Feb.root HistoName: wh_ZH150 HistoPath: 
+Creating Sample Element
+Making OverallSys:
+	 	 Name: ATLAS_LUMI_2012	 Low: 0.972	 High: 1.028
+Making OverallSys:
+	 	 Name: ATLAS_EWK	 Low: 0.98	 High: 1.02
+Making OverallSys:
+	 	 Name: ATLAS_UE_VH	 Low: 0.98	 High: 1.02
+Making OverallSys:
+	 	 Name: ATLAS_PDFacc_VH	 Low: 0.99	 High: 1.01
+Making OverallSys:
+	 	 Name: ATLAS_QCDacc_VH	 Low: 0.99	 High: 1.01
+Making OverallSys:
+	 	 Name: ATLAS_BR_tautau	 Low: 0.943	 High: 1.057
+Making NormFactor:
+	 	 Name: SigXsecOverSM	 Val: 0	 Low: 0	 High: 40	 Const: 0
+Making NormFactor:
+	 	 Name: mu_XS8_WH	 Val: 1	 Low: 0	 High: 200	 Const: 0
+Created Sample Node with Name: wh_WH150 InputFile: workspace20Feb.root HistoName: wh_WH150 HistoPath: 
+Created Channel: 
+	 Channel Name: wh	 InputFile: 
+	 Data:
+	 	 InputFile: workspace20Feb.root	 HistoName: wh_Data	 HistoPath: 	 HistoAddress: 0
+	 statErrorConfig:
+	 	 RelErrorThreshold: 0.05	 ConstraintType: Poisson
+	 Samples: 
+	 	 Name: wh_WHhh_AntitauEvents	 	 Channel: wh	 NormalizeByTheory: True	 StatErrorActivate: False
+	 	 	 	 	 InputFile: workspace20Feb.root	 HistName: wh_WHhh_AntitauEvents	 HistoPath: 	 HistoAddress: 0
+	 	 	 StatError Activate: 1	 InputFile: workspace20Feb.root	 HistName: 	 HistoPath: 	 HistoAddress: 0
+	 	 Name: wh_ZH150	 	 Channel: wh	 NormalizeByTheory: True	 StatErrorActivate: False
+	 	 	 	 	 InputFile: workspace20Feb.root	 HistName: wh_ZH150	 HistoPath: 	 HistoAddress: 0
+	 	 Name: wh_WH150	 	 Channel: wh	 NormalizeByTheory: True	 StatErrorActivate: False
+	 	 	 	 	 InputFile: workspace20Feb.root	 HistName: wh_WH150	 HistoPath: 	 HistoAddress: 0
+	 End of Channel wh
+Getting histogram.  InputFile workspace20Feb.root HistoPath  HistoName zh_Data
+Opened input file: workspace20Feb.root: 0x1a807b0
+Collecting Nominal Histogram
+Getting histogram.  InputFile workspace20Feb.root HistoPath  HistoName zh_AntitauEvents
+Opened input file: workspace20Feb.root: 0x1c2d430
+Collecting Nominal Histogram
+Getting histogram.  InputFile workspace20Feb.root HistoPath  HistoName zh_ZH150
+Opened input file: workspace20Feb.root: 0x1a06880
+Collecting Nominal Histogram
+Getting histogram.  InputFile workspace20Feb.root HistoPath  HistoName zh_WH150
+Opened input file: workspace20Feb.root: 0x1cef290
+Getting histogram.  InputFile workspace20Feb.root HistoPath  HistoName wh_Data
+Opened input file: workspace20Feb.root: 0x1a023d0
+Collecting Nominal Histogram
+Getting histogram.  InputFile workspace20Feb.root HistoPath  HistoName wh_WHhh_AntitauEvents
+Opened input file: workspace20Feb.root: 0x1c32bb0
+Collecting Nominal Histogram
+Getting histogram.  InputFile workspace20Feb.root HistoPath  HistoName wh_ZH150
+Opened input file: workspace20Feb.root: 0x1cf1480
+Collecting Nominal Histogram
+Getting histogram.  InputFile workspace20Feb.root HistoPath  HistoName wh_WH150
+Opened input file: workspace20Feb.root: 0x1cfd990
+Making Model and Measurements (Fast) for measurement: VH_150
+using lumi = 1 and lumiError = 0.028 including bins between 0 and 1
+fixing the following parameters:
+   Lumi
+   mu_BR_tautau
+   mu_XS8_ggH
+   mu_XS8_VBF
+   mu_XS8_WH
+   mu_XS8_ZH
+Creating the output file: MEAS_VH_150.root
+Creating the table file: MEAS_results.table
+Creating the HistoToWorkspaceFactoryFast factory
+Setting preprocess functions
+Starting to process channel: zh
+
+
+-------------------
+Starting to process zh channel with 1 observables
+lumi str = [1,0,10]
+lumi Error str = nominalLumi[1,0,1.28],0.028
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooConstVar::zh_AntitauEvents_zh_epsilon
+zh_AntitauEvents_zh has no variation histograms 
+processing hist zh_AntitauEvents
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(zh_AntitauEvents_zhnominalDHist): fit range of variable obs_x_zh expanded to nearest bin boundaries: [25,225] --> [25,225]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing dataset zh_AntitauEvents_zhnominalDHist
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooHistFunc::zh_AntitauEvents_zh_nominal
+Sample: zh_AntitauEvents to be included in Stat Error for channel zh
+Making Statistical Uncertainty Hist for  Channel: zh Sample: zh_AntitauEvents
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooRealVar::gamma_stat_zh_bin_0
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooRealVar::gamma_stat_zh_bin_1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooRealVar::gamma_stat_zh_bin_2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooRealVar::gamma_stat_zh_bin_3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooRealVar::gamma_stat_zh_bin_4
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing ParamHistFunc::mc_stat_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::obs_x_zh for import of ParamHistFunc::mc_stat_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::gamma_stat_zh_bin_0 for import of ParamHistFunc::mc_stat_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::gamma_stat_zh_bin_1 for import of ParamHistFunc::mc_stat_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::gamma_stat_zh_bin_2 for import of ParamHistFunc::mc_stat_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::gamma_stat_zh_bin_3 for import of ParamHistFunc::mc_stat_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::gamma_stat_zh_bin_4 for import of ParamHistFunc::mc_stat_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooProduct::zh_AntitauEvents_zh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of ParamHistFunc::mc_stat_zh for import of RooProduct::zh_AntitauEvents_zh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::obs_x_zh for import of RooProduct::zh_AntitauEvents_zh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::gamma_stat_zh_bin_0 for import of RooProduct::zh_AntitauEvents_zh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::gamma_stat_zh_bin_1 for import of RooProduct::zh_AntitauEvents_zh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::gamma_stat_zh_bin_2 for import of RooProduct::zh_AntitauEvents_zh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::gamma_stat_zh_bin_3 for import of RooProduct::zh_AntitauEvents_zh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::gamma_stat_zh_bin_4 for import of RooProduct::zh_AntitauEvents_zh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooProduct::zh_AntitauEvents_zh_overallSyst_x_Exp for import of RooProduct::zh_AntitauEvents_zh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooHistFunc::zh_AntitauEvents_zh_nominal for import of RooProduct::zh_AntitauEvents_zh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooConstVar::zh_AntitauEvents_zh_epsilon for import of RooProduct::zh_AntitauEvents_zh_overallSyst_x_StatUncert
+Gaussian::alpha_ATLAS_LUMI_2012Constraint(alpha_ATLAS_LUMI_2012,nom_alpha_ATLAS_LUMI_2012[0.,-10,10],1.)
+Gaussian::alpha_ATLAS_EWKConstraint(alpha_ATLAS_EWK,nom_alpha_ATLAS_EWK[0.,-10,10],1.)
+Gaussian::alpha_ATLAS_UE_VHConstraint(alpha_ATLAS_UE_VH,nom_alpha_ATLAS_UE_VH[0.,-10,10],1.)
+Gaussian::alpha_ATLAS_PDFacc_VHConstraint(alpha_ATLAS_PDFacc_VH,nom_alpha_ATLAS_PDFacc_VH[0.,-10,10],1.)
+Gaussian::alpha_ATLAS_QCDacc_VHConstraint(alpha_ATLAS_QCDacc_VH,nom_alpha_ATLAS_QCDacc_VH[0.,-10,10],1.)
+Gaussian::alpha_ATLAS_BR_tautauConstraint(alpha_ATLAS_BR_tautau,nom_alpha_ATLAS_BR_tautau[0.,-10,10],1.)
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooStats::HistFactory::FlexibleInterpVar::zh_ZH150_zh_epsilon
+making normFactor: SigXsecOverSM
+making normFactor: mu_XS8_ZH
+zh_ZH150_zh has no variation histograms 
+processing hist zh_ZH150
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(zh_ZH150_zhnominalDHist): fit range of variable obs_x_zh expanded to nearest bin boundaries: [25,225] --> [25,225]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing dataset zh_ZH150_zhnominalDHist
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooHistFunc::zh_ZH150_zh_nominal
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooStats::HistFactory::FlexibleInterpVar::zh_WH150_zh_epsilon
+making normFactor: mu_XS8_WH
+zh_WH150_zh has no variation histograms 
+processing hist zh_WH150
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(zh_WH150_zhnominalDHist): fit range of variable obs_x_zh expanded to nearest bin boundaries: [25,225] --> [25,225]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing dataset zh_WH150_zhnominalDHist
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooHistFunc::zh_WH150_zh_nominal
+Making Total Uncertainty for bin 1 Error = 0.439256 Val = 0.756081 RelativeError = 0.580964
+Making Total Uncertainty for bin 2 Error = 0.607449 Val = 1.30611 RelativeError = 0.465083
+Making Total Uncertainty for bin 3 Error = 0.582409 Val = 1.10881 RelativeError = 0.525256
+Making Total Uncertainty for bin 4 Error = 0.437399 Val = 0.461786 RelativeError = 0.94719
+Making Total Uncertainty for bin 5 Error = 0.370063 Val = 0.496803 RelativeError = 0.744889
+About to create Constraint Terms from: mc_stat_zh params: (gamma_stat_zh_bin_0,gamma_stat_zh_bin_1,gamma_stat_zh_bin_2,gamma_stat_zh_bin_3,gamma_stat_zh_bin_4)
+Using Poisson StatErrors in channel: zh
+Creating constraint for: gamma_stat_zh_bin_0. Type of constraint: 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooPoisson::gamma_stat_zh_bin_0_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooRealVar::nom_gamma_stat_zh_bin_0
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooProduct::gamma_stat_zh_bin_0_poisMean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::gamma_stat_zh_bin_0 for import of RooPoisson::gamma_stat_zh_bin_0_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooConstVar::gamma_stat_zh_bin_0_tau
+Creating constraint for: gamma_stat_zh_bin_1. Type of constraint: 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooPoisson::gamma_stat_zh_bin_1_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooRealVar::nom_gamma_stat_zh_bin_1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooProduct::gamma_stat_zh_bin_1_poisMean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::gamma_stat_zh_bin_1 for import of RooPoisson::gamma_stat_zh_bin_1_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooConstVar::gamma_stat_zh_bin_1_tau
+Creating constraint for: gamma_stat_zh_bin_2. Type of constraint: 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooPoisson::gamma_stat_zh_bin_2_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooRealVar::nom_gamma_stat_zh_bin_2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooProduct::gamma_stat_zh_bin_2_poisMean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::gamma_stat_zh_bin_2 for import of RooPoisson::gamma_stat_zh_bin_2_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooConstVar::gamma_stat_zh_bin_2_tau
+Creating constraint for: gamma_stat_zh_bin_3. Type of constraint: 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooPoisson::gamma_stat_zh_bin_3_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooRealVar::nom_gamma_stat_zh_bin_3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooProduct::gamma_stat_zh_bin_3_poisMean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::gamma_stat_zh_bin_3 for import of RooPoisson::gamma_stat_zh_bin_3_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooConstVar::gamma_stat_zh_bin_3_tau
+Creating constraint for: gamma_stat_zh_bin_4. Type of constraint: 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooPoisson::gamma_stat_zh_bin_4_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooRealVar::nom_gamma_stat_zh_bin_4
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooProduct::gamma_stat_zh_bin_4_poisMean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::gamma_stat_zh_bin_4 for import of RooPoisson::gamma_stat_zh_bin_4_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooConstVar::gamma_stat_zh_bin_4_tau
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooRealSumPdf::zh_model
+could not find variable mu_BR_tautau could not set it to constant
+could not find variable mu_XS8_ggH could not set it to constant
+could not find variable mu_XS8_VBF could not set it to constant
+could not corresponding auxiliary measurement  nom_mu_XS8_WH
+could not corresponding auxiliary measurement  nom_mu_XS8_ZH
+-----------------------------------------
+import model into workspace
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooGaussian::lumiConstraint for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooConstVar::0.028 for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::Lumi for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::nominalLumi for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooGaussian::alpha_ATLAS_LUMI_2012Constraint for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooConstVar::1 for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::alpha_ATLAS_LUMI_2012 for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::nom_alpha_ATLAS_LUMI_2012 for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooGaussian::alpha_ATLAS_EWKConstraint for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::alpha_ATLAS_EWK for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::nom_alpha_ATLAS_EWK for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooGaussian::alpha_ATLAS_UE_VHConstraint for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::alpha_ATLAS_UE_VH for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::nom_alpha_ATLAS_UE_VH for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooGaussian::alpha_ATLAS_PDFacc_VHConstraint for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::alpha_ATLAS_PDFacc_VH for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::nom_alpha_ATLAS_PDFacc_VH for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooGaussian::alpha_ATLAS_QCDacc_VHConstraint for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::alpha_ATLAS_QCDacc_VH for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::nom_alpha_ATLAS_QCDacc_VH for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooGaussian::alpha_ATLAS_BR_tautauConstraint for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::alpha_ATLAS_BR_tautau for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::nom_alpha_ATLAS_BR_tautau for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooPoisson::gamma_stat_zh_bin_0_constraint for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::nom_gamma_stat_zh_bin_0 for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooProduct::gamma_stat_zh_bin_0_poisMean for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooConstVar::gamma_stat_zh_bin_0_tau for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::gamma_stat_zh_bin_0 for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooPoisson::gamma_stat_zh_bin_1_constraint for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::nom_gamma_stat_zh_bin_1 for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooProduct::gamma_stat_zh_bin_1_poisMean for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooConstVar::gamma_stat_zh_bin_1_tau for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::gamma_stat_zh_bin_1 for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooPoisson::gamma_stat_zh_bin_2_constraint for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::nom_gamma_stat_zh_bin_2 for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooProduct::gamma_stat_zh_bin_2_poisMean for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooConstVar::gamma_stat_zh_bin_2_tau for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::gamma_stat_zh_bin_2 for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooPoisson::gamma_stat_zh_bin_3_constraint for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::nom_gamma_stat_zh_bin_3 for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooProduct::gamma_stat_zh_bin_3_poisMean for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooConstVar::gamma_stat_zh_bin_3_tau for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::gamma_stat_zh_bin_3 for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooPoisson::gamma_stat_zh_bin_4_constraint for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::nom_gamma_stat_zh_bin_4 for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooProduct::gamma_stat_zh_bin_4_poisMean for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooConstVar::gamma_stat_zh_bin_4_tau for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::gamma_stat_zh_bin_4 for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealSumPdf::zh_model for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooProduct::L_x_zh_AntitauEvents_zh_overallSyst_x_StatUncert for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooProduct::zh_AntitauEvents_zh_overallSyst_x_StatUncert for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of ParamHistFunc::mc_stat_zh for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::obs_x_zh for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooProduct::zh_AntitauEvents_zh_overallSyst_x_Exp for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooHistFunc::zh_AntitauEvents_zh_nominal for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooConstVar::zh_AntitauEvents_zh_epsilon for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::binWidth_obs_x_zh_0 for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooProduct::L_x_zh_ZH150_zh_overallSyst_x_Exp for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooProduct::zh_ZH150_zh_overallSyst_x_Exp for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooHistFunc::zh_ZH150_zh_nominal for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooProduct::zh_ZH150_zh_overallNorm_x_sigma_epsilon for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::SigXsecOverSM for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::mu_XS8_ZH for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooStats::HistFactory::FlexibleInterpVar::zh_ZH150_zh_epsilon for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::binWidth_obs_x_zh_1 for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooProduct::L_x_zh_WH150_zh_overallSyst_x_Exp for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooProduct::zh_WH150_zh_overallSyst_x_Exp for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooHistFunc::zh_WH150_zh_nominal for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooProduct::zh_WH150_zh_overallNorm_x_sigma_epsilon for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::mu_XS8_WH for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooStats::HistFactory::FlexibleInterpVar::zh_WH150_zh_epsilon for import of RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) using existing copy of RooRealVar::binWidth_obs_x_zh_2 for import of RooProdPdf::model_zh
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(zh_model_Int[obs_x_zh]) using numeric integrator RooBinIntegrator to calculate Int(obs_x_zh)
+RooDataSet::AsimovData[obs_x_zh,weight:binWeightAsimov] = 5 entries (4.12959 weighted)
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing dataset AsimovData
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(zh) changing name of dataset from  AsimovData to asimovData
+[#1] INFO:ObjectHandling -- RooWorkspace::import(zh) importing dataset obsData
+
+RooWorkspace(zh) zh workspace contents
+
+variables
+---------
+(Lumi,SigXsecOverSM,alpha_ATLAS_BR_tautau,alpha_ATLAS_EWK,alpha_ATLAS_LUMI_2012,alpha_ATLAS_PDFacc_VH,alpha_ATLAS_QCDacc_VH,alpha_ATLAS_UE_VH,binWidth_obs_x_zh_0,binWidth_obs_x_zh_1,binWidth_obs_x_zh_2,gamma_stat_zh_bin_0,gamma_stat_zh_bin_1,gamma_stat_zh_bin_2,gamma_stat_zh_bin_3,gamma_stat_zh_bin_4,mu_XS8_WH,mu_XS8_ZH,nom_alpha_ATLAS_BR_tautau,nom_alpha_ATLAS_EWK,nom_alpha_ATLAS_LUMI_2012,nom_alpha_ATLAS_PDFacc_VH,nom_alpha_ATLAS_QCDacc_VH,nom_alpha_ATLAS_UE_VH,nom_gamma_stat_zh_bin_0,nom_gamma_stat_zh_bin_1,nom_gamma_stat_zh_bin_2,nom_gamma_stat_zh_bin_3,nom_gamma_stat_zh_bin_4,nominalLumi,obs_x_zh,weightVar)
+
+p.d.f.s
+-------
+RooGaussian::alpha_ATLAS_BR_tautauConstraint[ x=alpha_ATLAS_BR_tautau mean=nom_alpha_ATLAS_BR_tautau sigma=1 ] = 1
+RooGaussian::alpha_ATLAS_EWKConstraint[ x=alpha_ATLAS_EWK mean=nom_alpha_ATLAS_EWK sigma=1 ] = 1
+RooGaussian::alpha_ATLAS_LUMI_2012Constraint[ x=alpha_ATLAS_LUMI_2012 mean=nom_alpha_ATLAS_LUMI_2012 sigma=1 ] = 1
+RooGaussian::alpha_ATLAS_PDFacc_VHConstraint[ x=alpha_ATLAS_PDFacc_VH mean=nom_alpha_ATLAS_PDFacc_VH sigma=1 ] = 1
+RooGaussian::alpha_ATLAS_QCDacc_VHConstraint[ x=alpha_ATLAS_QCDacc_VH mean=nom_alpha_ATLAS_QCDacc_VH sigma=1 ] = 1
+RooGaussian::alpha_ATLAS_UE_VHConstraint[ x=alpha_ATLAS_UE_VH mean=nom_alpha_ATLAS_UE_VH sigma=1 ] = 1
+RooPoisson::gamma_stat_zh_bin_0_constraint[ x=nom_gamma_stat_zh_bin_0 mean=gamma_stat_zh_bin_0_poisMean ] = 0.225366
+RooPoisson::gamma_stat_zh_bin_1_constraint[ x=nom_gamma_stat_zh_bin_1 mean=gamma_stat_zh_bin_1_poisMean ] = 0.182232
+RooPoisson::gamma_stat_zh_bin_2_constraint[ x=nom_gamma_stat_zh_bin_2 mean=gamma_stat_zh_bin_2_poisMean ] = 0.204796
+RooPoisson::gamma_stat_zh_bin_3_constraint[ x=nom_gamma_stat_zh_bin_3 mean=gamma_stat_zh_bin_3_poisMean ] = 0.351247
+RooPoisson::gamma_stat_zh_bin_4_constraint[ x=nom_gamma_stat_zh_bin_4 mean=gamma_stat_zh_bin_4_poisMean ] = 0.283865
+RooGaussian::lumiConstraint[ x=Lumi mean=nominalLumi sigma=0.028 ] = 1
+RooProdPdf::model_zh[ lumiConstraint * alpha_ATLAS_LUMI_2012Constraint * alpha_ATLAS_EWKConstraint * alpha_ATLAS_UE_VHConstraint * alpha_ATLAS_PDFacc_VHConstraint * alpha_ATLAS_QCDacc_VHConstraint * alpha_ATLAS_BR_tautauConstraint * gamma_stat_zh_bin_0_constraint * gamma_stat_zh_bin_1_constraint * gamma_stat_zh_bin_2_constraint * gamma_stat_zh_bin_3_constraint * gamma_stat_zh_bin_4_constraint * zh_model(obs_x_zh) ] = 1.04156e-05
+RooRealSumPdf::zh_model[ binWidth_obs_x_zh_0 * L_x_zh_AntitauEvents_zh_overallSyst_x_StatUncert + binWidth_obs_x_zh_1 * L_x_zh_ZH150_zh_overallSyst_x_Exp + binWidth_obs_x_zh_2 * L_x_zh_WH150_zh_overallSyst_x_Exp ] = 0.0124201/4.12959
+
+functions
+--------
+RooProduct::L_x_zh_AntitauEvents_zh_overallSyst_x_StatUncert[ Lumi * zh_AntitauEvents_zh_overallSyst_x_StatUncert ] = 0.496803
+RooProduct::L_x_zh_WH150_zh_overallSyst_x_Exp[ Lumi * zh_WH150_zh_overallSyst_x_Exp ] = 0
+RooProduct::L_x_zh_ZH150_zh_overallSyst_x_Exp[ Lumi * zh_ZH150_zh_overallSyst_x_Exp ] = 0
+RooProduct::gamma_stat_zh_bin_0_poisMean[ gamma_stat_zh_bin_0 * gamma_stat_zh_bin_0_tau ] = 2.9628
+RooProduct::gamma_stat_zh_bin_1_poisMean[ gamma_stat_zh_bin_1 * gamma_stat_zh_bin_1_tau ] = 4.62317
+RooProduct::gamma_stat_zh_bin_2_poisMean[ gamma_stat_zh_bin_2 * gamma_stat_zh_bin_2_tau ] = 3.62458
+RooProduct::gamma_stat_zh_bin_3_poisMean[ gamma_stat_zh_bin_3 * gamma_stat_zh_bin_3_tau ] = 1.11462
+RooProduct::gamma_stat_zh_bin_4_poisMean[ gamma_stat_zh_bin_4 * gamma_stat_zh_bin_4_tau ] = 1.80226
+ParamHistFunc::mc_stat_zh[ ] = 1
+RooHistFunc::zh_AntitauEvents_zh_nominal[ depList=(obs_x_zh) ] = 0.496803
+RooProduct::zh_AntitauEvents_zh_overallSyst_x_Exp[ zh_AntitauEvents_zh_nominal * zh_AntitauEvents_zh_epsilon ] = 0.496803
+RooProduct::zh_AntitauEvents_zh_overallSyst_x_StatUncert[ mc_stat_zh * zh_AntitauEvents_zh_overallSyst_x_Exp ] = 0.496803
+RooStats::HistFactory::FlexibleInterpVar::zh_WH150_zh_epsilon[ paramList=(alpha_ATLAS_LUMI_2012,alpha_ATLAS_EWK,alpha_ATLAS_UE_VH,alpha_ATLAS_PDFacc_VH,alpha_ATLAS_QCDacc_VH,alpha_ATLAS_BR_tautau) ] = 1
+RooHistFunc::zh_WH150_zh_nominal[ depList=(obs_x_zh) ] = 0
+RooProduct::zh_WH150_zh_overallNorm_x_sigma_epsilon[ SigXsecOverSM * mu_XS8_WH * zh_WH150_zh_epsilon ] = 0
+RooProduct::zh_WH150_zh_overallSyst_x_Exp[ zh_WH150_zh_nominal * zh_WH150_zh_overallNorm_x_sigma_epsilon ] = 0
+RooStats::HistFactory::FlexibleInterpVar::zh_ZH150_zh_epsilon[ paramList=(alpha_ATLAS_LUMI_2012,alpha_ATLAS_EWK,alpha_ATLAS_UE_VH,alpha_ATLAS_PDFacc_VH,alpha_ATLAS_QCDacc_VH,alpha_ATLAS_BR_tautau) ] = 1
+RooHistFunc::zh_ZH150_zh_nominal[ depList=(obs_x_zh) ] = 0.00240754
+RooProduct::zh_ZH150_zh_overallNorm_x_sigma_epsilon[ SigXsecOverSM * mu_XS8_ZH * zh_ZH150_zh_epsilon ] = 0
+RooProduct::zh_ZH150_zh_overallSyst_x_Exp[ zh_ZH150_zh_nominal * zh_ZH150_zh_overallNorm_x_sigma_epsilon ] = 0
+
+datasets
+--------
+RooDataSet::asimovData(obs_x_zh)
+RooDataSet::obsData(obs_x_zh)
+
+embedded datasets (in pdfs and functions)
+-----------------------------------------
+RooDataHist::zh_AntitauEvents_zhnominalDHist(obs_x_zh)
+RooDataHist::zh_ZH150_zhnominalDHist(obs_x_zh)
+RooDataHist::zh_WH150_zhnominalDHist(obs_x_zh)
+
+named sets
+----------
+ModelConfig_GlobalObservables:(nom_alpha_ATLAS_LUMI_2012,nom_alpha_ATLAS_EWK,nom_alpha_ATLAS_UE_VH,nom_alpha_ATLAS_PDFacc_VH,nom_alpha_ATLAS_QCDacc_VH,nom_alpha_ATLAS_BR_tautau,nom_gamma_stat_zh_bin_0,nom_gamma_stat_zh_bin_1,nom_gamma_stat_zh_bin_2,nom_gamma_stat_zh_bin_3,nom_gamma_stat_zh_bin_4)
+ModelConfig_Observables:(obs_x_zh)
+coefList:(binWidth_obs_x_zh_0,binWidth_obs_x_zh_1,binWidth_obs_x_zh_2)
+constraintTerms:(lumiConstraint,alpha_ATLAS_LUMI_2012Constraint,alpha_ATLAS_EWKConstraint,alpha_ATLAS_UE_VHConstraint,alpha_ATLAS_PDFacc_VHConstraint,alpha_ATLAS_QCDacc_VHConstraint,alpha_ATLAS_BR_tautauConstraint,gamma_stat_zh_bin_0_constraint,gamma_stat_zh_bin_1_constraint,gamma_stat_zh_bin_2_constraint,gamma_stat_zh_bin_3_constraint,gamma_stat_zh_bin_4_constraint)
+globalObservables:(nom_alpha_ATLAS_LUMI_2012,nom_alpha_ATLAS_EWK,nom_alpha_ATLAS_UE_VH,nom_alpha_ATLAS_PDFacc_VH,nom_alpha_ATLAS_QCDacc_VH,nom_alpha_ATLAS_BR_tautau,nom_gamma_stat_zh_bin_0,nom_gamma_stat_zh_bin_1,nom_gamma_stat_zh_bin_2,nom_gamma_stat_zh_bin_3,nom_gamma_stat_zh_bin_4)
+likelihoodTerms:(zh_model)
+obsAndWeight:(weightVar,obs_x_zh)
+observables:(obs_x_zh)
+observablesSet:(obs_x_zh)
+shapeList:(L_x_zh_AntitauEvents_zh_overallSyst_x_StatUncert,L_x_zh_ZH150_zh_overallSyst_x_Exp,L_x_zh_WH150_zh_overallSyst_x_Exp)
+
+generic objects
+---------------
+RooStats::ModelConfig::ModelConfig
+
+Setting Parameter(s) of Interest as: SigXsecOverSM 
+
+=== Using the following for ModelConfig ===
+Observables:             RooArgSet:: = (obs_x_zh)
+Parameters of Interest:  RooArgSet:: = (SigXsecOverSM)
+Nuisance Parameters:     RooArgSet:: = (alpha_ATLAS_BR_tautau,alpha_ATLAS_EWK,alpha_ATLAS_LUMI_2012,alpha_ATLAS_PDFacc_VH,alpha_ATLAS_QCDacc_VH,alpha_ATLAS_UE_VH,gamma_stat_zh_bin_0,gamma_stat_zh_bin_1,gamma_stat_zh_bin_2,gamma_stat_zh_bin_3,gamma_stat_zh_bin_4)
+Global Observables:      RooArgSet:: = (nom_alpha_ATLAS_LUMI_2012,nom_alpha_ATLAS_EWK,nom_alpha_ATLAS_UE_VH,nom_alpha_ATLAS_PDFacc_VH,nom_alpha_ATLAS_QCDacc_VH,nom_alpha_ATLAS_BR_tautau,nom_gamma_stat_zh_bin_0,nom_gamma_stat_zh_bin_1,nom_gamma_stat_zh_bin_2,nom_gamma_stat_zh_bin_3,nom_gamma_stat_zh_bin_4)
+PDF:                     RooProdPdf::model_zh[ lumiConstraint * alpha_ATLAS_LUMI_2012Constraint * alpha_ATLAS_EWKConstraint * alpha_ATLAS_UE_VHConstraint * alpha_ATLAS_PDFacc_VHConstraint * alpha_ATLAS_QCDacc_VHConstraint * alpha_ATLAS_BR_tautauConstraint * gamma_stat_zh_bin_0_constraint * gamma_stat_zh_bin_1_constraint * gamma_stat_zh_bin_2_constraint * gamma_stat_zh_bin_3_constraint * gamma_stat_zh_bin_4_constraint * zh_model(obs_x_zh) ] = 1.04156e-05
+
+Opening File to hold channel: MEAS_zh_VH_150_model.root
+About to write channel measurement to file
+Writing sample: zh_AntitauEvents
+Writing sample: zh_ZH150
+Writing sample: zh_WH150
+Saved all histograms
+Saved Measurement
+Successfully wrote channel to file
+Starting to process channel: wh
+
+
+-------------------
+Starting to process wh channel with 1 observables
+lumi str = [1,0,10]
+lumi Error str = nominalLumi[1,0,1.28],0.028
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooConstVar::wh_WHhh_AntitauEvents_wh_epsilon
+wh_WHhh_AntitauEvents_wh has no variation histograms 
+processing hist wh_WHhh_AntitauEvents
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(wh_WHhh_AntitauEvents_whnominalDHist): fit range of variable obs_x_wh expanded to nearest bin boundaries: [25,200] --> [25,200]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing dataset wh_WHhh_AntitauEvents_whnominalDHist
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooHistFunc::wh_WHhh_AntitauEvents_wh_nominal
+Sample: wh_WHhh_AntitauEvents to be included in Stat Error for channel wh
+Making Statistical Uncertainty Hist for  Channel: wh Sample: wh_WHhh_AntitauEvents
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooRealVar::gamma_stat_wh_bin_0
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooRealVar::gamma_stat_wh_bin_1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooRealVar::gamma_stat_wh_bin_2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooRealVar::gamma_stat_wh_bin_3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooRealVar::gamma_stat_wh_bin_4
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooRealVar::gamma_stat_wh_bin_5
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooRealVar::gamma_stat_wh_bin_6
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooRealVar::gamma_stat_wh_bin_7
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing ParamHistFunc::mc_stat_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::obs_x_wh for import of ParamHistFunc::mc_stat_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_0 for import of ParamHistFunc::mc_stat_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_1 for import of ParamHistFunc::mc_stat_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_2 for import of ParamHistFunc::mc_stat_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_3 for import of ParamHistFunc::mc_stat_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_4 for import of ParamHistFunc::mc_stat_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_5 for import of ParamHistFunc::mc_stat_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_6 for import of ParamHistFunc::mc_stat_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_7 for import of ParamHistFunc::mc_stat_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooProduct::wh_WHhh_AntitauEvents_wh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of ParamHistFunc::mc_stat_wh for import of RooProduct::wh_WHhh_AntitauEvents_wh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::obs_x_wh for import of RooProduct::wh_WHhh_AntitauEvents_wh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_0 for import of RooProduct::wh_WHhh_AntitauEvents_wh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_1 for import of RooProduct::wh_WHhh_AntitauEvents_wh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_2 for import of RooProduct::wh_WHhh_AntitauEvents_wh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_3 for import of RooProduct::wh_WHhh_AntitauEvents_wh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_4 for import of RooProduct::wh_WHhh_AntitauEvents_wh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_5 for import of RooProduct::wh_WHhh_AntitauEvents_wh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_6 for import of RooProduct::wh_WHhh_AntitauEvents_wh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_7 for import of RooProduct::wh_WHhh_AntitauEvents_wh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooProduct::wh_WHhh_AntitauEvents_wh_overallSyst_x_Exp for import of RooProduct::wh_WHhh_AntitauEvents_wh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooHistFunc::wh_WHhh_AntitauEvents_wh_nominal for import of RooProduct::wh_WHhh_AntitauEvents_wh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooConstVar::wh_WHhh_AntitauEvents_wh_epsilon for import of RooProduct::wh_WHhh_AntitauEvents_wh_overallSyst_x_StatUncert
+Gaussian::alpha_ATLAS_LUMI_2012Constraint(alpha_ATLAS_LUMI_2012,nom_alpha_ATLAS_LUMI_2012[0.,-10,10],1.)
+Gaussian::alpha_ATLAS_EWKConstraint(alpha_ATLAS_EWK,nom_alpha_ATLAS_EWK[0.,-10,10],1.)
+Gaussian::alpha_ATLAS_UE_VHConstraint(alpha_ATLAS_UE_VH,nom_alpha_ATLAS_UE_VH[0.,-10,10],1.)
+Gaussian::alpha_ATLAS_PDFacc_VHConstraint(alpha_ATLAS_PDFacc_VH,nom_alpha_ATLAS_PDFacc_VH[0.,-10,10],1.)
+Gaussian::alpha_ATLAS_QCDacc_VHConstraint(alpha_ATLAS_QCDacc_VH,nom_alpha_ATLAS_QCDacc_VH[0.,-10,10],1.)
+Gaussian::alpha_ATLAS_BR_tautauConstraint(alpha_ATLAS_BR_tautau,nom_alpha_ATLAS_BR_tautau[0.,-10,10],1.)
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooStats::HistFactory::FlexibleInterpVar::wh_ZH150_wh_epsilon
+making normFactor: SigXsecOverSM
+making normFactor: mu_XS8_WH
+wh_ZH150_wh has no variation histograms 
+processing hist wh_ZH150
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(wh_ZH150_whnominalDHist): fit range of variable obs_x_wh expanded to nearest bin boundaries: [25,200] --> [25,200]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing dataset wh_ZH150_whnominalDHist
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooHistFunc::wh_ZH150_wh_nominal
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooStats::HistFactory::FlexibleInterpVar::wh_WH150_wh_epsilon
+wh_WH150_wh has no variation histograms 
+processing hist wh_WH150
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(wh_WH150_whnominalDHist): fit range of variable obs_x_wh expanded to nearest bin boundaries: [25,200] --> [25,200]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing dataset wh_WH150_whnominalDHist
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooHistFunc::wh_WH150_wh_nominal
+Making Total Uncertainty for bin 1 Error = 0.305653 Val = 0.331391 RelativeError = 0.922332
+Making Total Uncertainty for bin 2 Error = 0.904761 Val = 3.36712 RelativeError = 0.268705
+Making Total Uncertainty for bin 3 Error = 1.32998 Val = 7.71962 RelativeError = 0.172285
+Making Total Uncertainty for bin 4 Error = 1.33535 Val = 7.59615 RelativeError = 0.175793
+Making Total Uncertainty for bin 5 Error = 1.06968 Val = 5.52886 RelativeError = 0.193473
+Making Total Uncertainty for bin 6 Error = 0.701133 Val = 2.51616 RelativeError = 0.278652
+Making Total Uncertainty for bin 7 Error = 0.458225 Val = 0.741583 RelativeError = 0.617902
+Making Total Uncertainty for bin 8 Error = 0.397107 Val = 0.95777 RelativeError = 0.414616
+About to create Constraint Terms from: mc_stat_wh params: (gamma_stat_wh_bin_0,gamma_stat_wh_bin_1,gamma_stat_wh_bin_2,gamma_stat_wh_bin_3,gamma_stat_wh_bin_4,gamma_stat_wh_bin_5,gamma_stat_wh_bin_6,gamma_stat_wh_bin_7)
+Using Poisson StatErrors in channel: wh
+Creating constraint for: gamma_stat_wh_bin_0. Type of constraint: 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooPoisson::gamma_stat_wh_bin_0_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooRealVar::nom_gamma_stat_wh_bin_0
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooProduct::gamma_stat_wh_bin_0_poisMean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_0 for import of RooPoisson::gamma_stat_wh_bin_0_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooConstVar::gamma_stat_wh_bin_0_tau
+Creating constraint for: gamma_stat_wh_bin_1. Type of constraint: 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooPoisson::gamma_stat_wh_bin_1_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooRealVar::nom_gamma_stat_wh_bin_1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooProduct::gamma_stat_wh_bin_1_poisMean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_1 for import of RooPoisson::gamma_stat_wh_bin_1_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooConstVar::gamma_stat_wh_bin_1_tau
+Creating constraint for: gamma_stat_wh_bin_2. Type of constraint: 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooPoisson::gamma_stat_wh_bin_2_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooRealVar::nom_gamma_stat_wh_bin_2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooProduct::gamma_stat_wh_bin_2_poisMean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_2 for import of RooPoisson::gamma_stat_wh_bin_2_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooConstVar::gamma_stat_wh_bin_2_tau
+Creating constraint for: gamma_stat_wh_bin_3. Type of constraint: 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooPoisson::gamma_stat_wh_bin_3_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooRealVar::nom_gamma_stat_wh_bin_3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooProduct::gamma_stat_wh_bin_3_poisMean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_3 for import of RooPoisson::gamma_stat_wh_bin_3_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooConstVar::gamma_stat_wh_bin_3_tau
+Creating constraint for: gamma_stat_wh_bin_4. Type of constraint: 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooPoisson::gamma_stat_wh_bin_4_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooRealVar::nom_gamma_stat_wh_bin_4
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooProduct::gamma_stat_wh_bin_4_poisMean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_4 for import of RooPoisson::gamma_stat_wh_bin_4_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooConstVar::gamma_stat_wh_bin_4_tau
+Creating constraint for: gamma_stat_wh_bin_5. Type of constraint: 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooPoisson::gamma_stat_wh_bin_5_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooRealVar::nom_gamma_stat_wh_bin_5
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooProduct::gamma_stat_wh_bin_5_poisMean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_5 for import of RooPoisson::gamma_stat_wh_bin_5_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooConstVar::gamma_stat_wh_bin_5_tau
+Creating constraint for: gamma_stat_wh_bin_6. Type of constraint: 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooPoisson::gamma_stat_wh_bin_6_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooRealVar::nom_gamma_stat_wh_bin_6
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooProduct::gamma_stat_wh_bin_6_poisMean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_6 for import of RooPoisson::gamma_stat_wh_bin_6_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooConstVar::gamma_stat_wh_bin_6_tau
+Creating constraint for: gamma_stat_wh_bin_7. Type of constraint: 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooPoisson::gamma_stat_wh_bin_7_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooRealVar::nom_gamma_stat_wh_bin_7
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooProduct::gamma_stat_wh_bin_7_poisMean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_7 for import of RooPoisson::gamma_stat_wh_bin_7_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooConstVar::gamma_stat_wh_bin_7_tau
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooRealSumPdf::wh_model
+could not find variable mu_BR_tautau could not set it to constant
+could not find variable mu_XS8_ggH could not set it to constant
+could not find variable mu_XS8_VBF could not set it to constant
+could not corresponding auxiliary measurement  nom_mu_XS8_WH
+could not find variable mu_XS8_ZH could not set it to constant
+-----------------------------------------
+import model into workspace
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooGaussian::lumiConstraint for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooConstVar::0.028 for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::Lumi for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::nominalLumi for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooGaussian::alpha_ATLAS_LUMI_2012Constraint for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooConstVar::1 for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::alpha_ATLAS_LUMI_2012 for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::nom_alpha_ATLAS_LUMI_2012 for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooGaussian::alpha_ATLAS_EWKConstraint for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::alpha_ATLAS_EWK for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::nom_alpha_ATLAS_EWK for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooGaussian::alpha_ATLAS_UE_VHConstraint for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::alpha_ATLAS_UE_VH for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::nom_alpha_ATLAS_UE_VH for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooGaussian::alpha_ATLAS_PDFacc_VHConstraint for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::alpha_ATLAS_PDFacc_VH for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::nom_alpha_ATLAS_PDFacc_VH for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooGaussian::alpha_ATLAS_QCDacc_VHConstraint for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::alpha_ATLAS_QCDacc_VH for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::nom_alpha_ATLAS_QCDacc_VH for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooGaussian::alpha_ATLAS_BR_tautauConstraint for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::alpha_ATLAS_BR_tautau for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::nom_alpha_ATLAS_BR_tautau for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooPoisson::gamma_stat_wh_bin_0_constraint for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::nom_gamma_stat_wh_bin_0 for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooProduct::gamma_stat_wh_bin_0_poisMean for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooConstVar::gamma_stat_wh_bin_0_tau for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_0 for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooPoisson::gamma_stat_wh_bin_1_constraint for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::nom_gamma_stat_wh_bin_1 for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooProduct::gamma_stat_wh_bin_1_poisMean for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooConstVar::gamma_stat_wh_bin_1_tau for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_1 for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooPoisson::gamma_stat_wh_bin_2_constraint for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::nom_gamma_stat_wh_bin_2 for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooProduct::gamma_stat_wh_bin_2_poisMean for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooConstVar::gamma_stat_wh_bin_2_tau for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_2 for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooPoisson::gamma_stat_wh_bin_3_constraint for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::nom_gamma_stat_wh_bin_3 for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooProduct::gamma_stat_wh_bin_3_poisMean for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooConstVar::gamma_stat_wh_bin_3_tau for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_3 for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooPoisson::gamma_stat_wh_bin_4_constraint for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::nom_gamma_stat_wh_bin_4 for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooProduct::gamma_stat_wh_bin_4_poisMean for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooConstVar::gamma_stat_wh_bin_4_tau for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_4 for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooPoisson::gamma_stat_wh_bin_5_constraint for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::nom_gamma_stat_wh_bin_5 for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooProduct::gamma_stat_wh_bin_5_poisMean for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooConstVar::gamma_stat_wh_bin_5_tau for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_5 for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooPoisson::gamma_stat_wh_bin_6_constraint for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::nom_gamma_stat_wh_bin_6 for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooProduct::gamma_stat_wh_bin_6_poisMean for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooConstVar::gamma_stat_wh_bin_6_tau for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_6 for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooPoisson::gamma_stat_wh_bin_7_constraint for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::nom_gamma_stat_wh_bin_7 for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooProduct::gamma_stat_wh_bin_7_poisMean for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooConstVar::gamma_stat_wh_bin_7_tau for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::gamma_stat_wh_bin_7 for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealSumPdf::wh_model for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooProduct::L_x_wh_WHhh_AntitauEvents_wh_overallSyst_x_StatUncert for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooProduct::wh_WHhh_AntitauEvents_wh_overallSyst_x_StatUncert for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of ParamHistFunc::mc_stat_wh for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::obs_x_wh for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooProduct::wh_WHhh_AntitauEvents_wh_overallSyst_x_Exp for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooHistFunc::wh_WHhh_AntitauEvents_wh_nominal for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooConstVar::wh_WHhh_AntitauEvents_wh_epsilon for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::binWidth_obs_x_wh_0 for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooProduct::L_x_wh_ZH150_wh_overallSyst_x_Exp for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooProduct::wh_ZH150_wh_overallSyst_x_Exp for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooHistFunc::wh_ZH150_wh_nominal for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooProduct::wh_ZH150_wh_overallNorm_x_sigma_epsilon for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::SigXsecOverSM for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::mu_XS8_WH for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooStats::HistFactory::FlexibleInterpVar::wh_ZH150_wh_epsilon for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::binWidth_obs_x_wh_1 for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooProduct::L_x_wh_WH150_wh_overallSyst_x_Exp for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooProduct::wh_WH150_wh_overallSyst_x_Exp for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooHistFunc::wh_WH150_wh_nominal for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooProduct::wh_WH150_wh_overallNorm_x_sigma_epsilon for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooStats::HistFactory::FlexibleInterpVar::wh_WH150_wh_epsilon for import of RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) using existing copy of RooRealVar::binWidth_obs_x_wh_2 for import of RooProdPdf::model_wh
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(wh_model_Int[obs_x_wh]) using numeric integrator RooBinIntegrator to calculate Int(obs_x_wh)
+RooDataSet::AsimovData[obs_x_wh,weight:binWeightAsimov] = 8 entries (28.7587 weighted)
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing dataset AsimovData
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wh) changing name of dataset from  AsimovData to asimovData
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wh) importing dataset obsData
+
+RooWorkspace(wh) wh workspace contents
+
+variables
+---------
+(Lumi,SigXsecOverSM,alpha_ATLAS_BR_tautau,alpha_ATLAS_EWK,alpha_ATLAS_LUMI_2012,alpha_ATLAS_PDFacc_VH,alpha_ATLAS_QCDacc_VH,alpha_ATLAS_UE_VH,binWidth_obs_x_wh_0,binWidth_obs_x_wh_1,binWidth_obs_x_wh_2,gamma_stat_wh_bin_0,gamma_stat_wh_bin_1,gamma_stat_wh_bin_2,gamma_stat_wh_bin_3,gamma_stat_wh_bin_4,gamma_stat_wh_bin_5,gamma_stat_wh_bin_6,gamma_stat_wh_bin_7,mu_XS8_WH,nom_alpha_ATLAS_BR_tautau,nom_alpha_ATLAS_EWK,nom_alpha_ATLAS_LUMI_2012,nom_alpha_ATLAS_PDFacc_VH,nom_alpha_ATLAS_QCDacc_VH,nom_alpha_ATLAS_UE_VH,nom_gamma_stat_wh_bin_0,nom_gamma_stat_wh_bin_1,nom_gamma_stat_wh_bin_2,nom_gamma_stat_wh_bin_3,nom_gamma_stat_wh_bin_4,nom_gamma_stat_wh_bin_5,nom_gamma_stat_wh_bin_6,nom_gamma_stat_wh_bin_7,nominalLumi,obs_x_wh,weightVar)
+
+p.d.f.s
+-------
+RooGaussian::alpha_ATLAS_BR_tautauConstraint[ x=alpha_ATLAS_BR_tautau mean=nom_alpha_ATLAS_BR_tautau sigma=1 ] = 1
+RooGaussian::alpha_ATLAS_EWKConstraint[ x=alpha_ATLAS_EWK mean=nom_alpha_ATLAS_EWK sigma=1 ] = 1
+RooGaussian::alpha_ATLAS_LUMI_2012Constraint[ x=alpha_ATLAS_LUMI_2012 mean=nom_alpha_ATLAS_LUMI_2012 sigma=1 ] = 1
+RooGaussian::alpha_ATLAS_PDFacc_VHConstraint[ x=alpha_ATLAS_PDFacc_VH mean=nom_alpha_ATLAS_PDFacc_VH sigma=1 ] = 1
+RooGaussian::alpha_ATLAS_QCDacc_VHConstraint[ x=alpha_ATLAS_QCDacc_VH mean=nom_alpha_ATLAS_QCDacc_VH sigma=1 ] = 1
+RooGaussian::alpha_ATLAS_UE_VHConstraint[ x=alpha_ATLAS_UE_VH mean=nom_alpha_ATLAS_UE_VH sigma=1 ] = 1
+RooPoisson::gamma_stat_wh_bin_0_constraint[ x=nom_gamma_stat_wh_bin_0 mean=gamma_stat_wh_bin_0_poisMean ] = 0.343277
+RooPoisson::gamma_stat_wh_bin_1_constraint[ x=nom_gamma_stat_wh_bin_1 mean=gamma_stat_wh_bin_1_poisMean ] = 0.106555
+RooPoisson::gamma_stat_wh_bin_2_constraint[ x=nom_gamma_stat_wh_bin_2 mean=gamma_stat_wh_bin_2_poisMean ] = 0.0685621
+RooPoisson::gamma_stat_wh_bin_3_constraint[ x=nom_gamma_stat_wh_bin_3 mean=gamma_stat_wh_bin_3_poisMean ] = 0.0699509
+RooPoisson::gamma_stat_wh_bin_4_constraint[ x=nom_gamma_stat_wh_bin_4 mean=gamma_stat_wh_bin_4_poisMean ] = 0.0769442
+RooPoisson::gamma_stat_wh_bin_5_constraint[ x=nom_gamma_stat_wh_bin_5 mean=gamma_stat_wh_bin_5_poisMean ] = 0.110449
+RooPoisson::gamma_stat_wh_bin_6_constraint[ x=nom_gamma_stat_wh_bin_6 mean=gamma_stat_wh_bin_6_poisMean ] = 0.238823
+RooPoisson::gamma_stat_wh_bin_7_constraint[ x=nom_gamma_stat_wh_bin_7 mean=gamma_stat_wh_bin_7_poisMean ] = 0.163058
+RooGaussian::lumiConstraint[ x=Lumi mean=nominalLumi sigma=0.028 ] = 1
+RooProdPdf::model_wh[ lumiConstraint * alpha_ATLAS_LUMI_2012Constraint * alpha_ATLAS_EWKConstraint * alpha_ATLAS_UE_VHConstraint * alpha_ATLAS_PDFacc_VHConstraint * alpha_ATLAS_QCDacc_VHConstraint * alpha_ATLAS_BR_tautauConstraint * gamma_stat_wh_bin_0_constraint * gamma_stat_wh_bin_1_constraint * gamma_stat_wh_bin_2_constraint * gamma_stat_wh_bin_3_constraint * gamma_stat_wh_bin_4_constraint * gamma_stat_wh_bin_5_constraint * gamma_stat_wh_bin_6_constraint * gamma_stat_wh_bin_7_constraint * wh_model(obs_x_wh) ] = 2.54193e-09
+RooRealSumPdf::wh_model[ binWidth_obs_x_wh_0 * L_x_wh_WHhh_AntitauEvents_wh_overallSyst_x_StatUncert + binWidth_obs_x_wh_1 * L_x_wh_ZH150_wh_overallSyst_x_Exp + binWidth_obs_x_wh_2 * L_x_wh_WH150_wh_overallSyst_x_Exp ] = 0.0437838/28.7587
+
+functions
+--------
+RooProduct::L_x_wh_WH150_wh_overallSyst_x_Exp[ Lumi * wh_WH150_wh_overallSyst_x_Exp ] = 0
+RooProduct::L_x_wh_WHhh_AntitauEvents_wh_overallSyst_x_StatUncert[ Lumi * wh_WHhh_AntitauEvents_wh_overallSyst_x_StatUncert ] = 0.95777
+RooProduct::L_x_wh_ZH150_wh_overallSyst_x_Exp[ Lumi * wh_ZH150_wh_overallSyst_x_Exp ] = 0
+RooProduct::gamma_stat_wh_bin_0_poisMean[ gamma_stat_wh_bin_0 * gamma_stat_wh_bin_0_tau ] = 1.17551
+RooProduct::gamma_stat_wh_bin_1_poisMean[ gamma_stat_wh_bin_1 * gamma_stat_wh_bin_1_tau ] = 13.85
+RooProduct::gamma_stat_wh_bin_2_poisMean[ gamma_stat_wh_bin_2 * gamma_stat_wh_bin_2_tau ] = 33.6902
+RooProduct::gamma_stat_wh_bin_3_poisMean[ gamma_stat_wh_bin_3 * gamma_stat_wh_bin_3_tau ] = 32.3591
+RooProduct::gamma_stat_wh_bin_4_poisMean[ gamma_stat_wh_bin_4 * gamma_stat_wh_bin_4_tau ] = 26.7153
+RooProduct::gamma_stat_wh_bin_5_poisMean[ gamma_stat_wh_bin_5 * gamma_stat_wh_bin_5_tau ] = 12.8788
+RooProduct::gamma_stat_wh_bin_6_poisMean[ gamma_stat_wh_bin_6 * gamma_stat_wh_bin_6_tau ] = 2.61915
+RooProduct::gamma_stat_wh_bin_7_poisMean[ gamma_stat_wh_bin_7 * gamma_stat_wh_bin_7_tau ] = 5.81711
+ParamHistFunc::mc_stat_wh[ ] = 1
+RooStats::HistFactory::FlexibleInterpVar::wh_WH150_wh_epsilon[ paramList=(alpha_ATLAS_LUMI_2012,alpha_ATLAS_EWK,alpha_ATLAS_UE_VH,alpha_ATLAS_PDFacc_VH,alpha_ATLAS_QCDacc_VH,alpha_ATLAS_BR_tautau) ] = 1
+RooHistFunc::wh_WH150_wh_nominal[ depList=(obs_x_wh) ] = 0
+RooProduct::wh_WH150_wh_overallNorm_x_sigma_epsilon[ SigXsecOverSM * mu_XS8_WH * wh_WH150_wh_epsilon ] = 0
+RooProduct::wh_WH150_wh_overallSyst_x_Exp[ wh_WH150_wh_nominal * wh_WH150_wh_overallNorm_x_sigma_epsilon ] = 0
+RooHistFunc::wh_WHhh_AntitauEvents_wh_nominal[ depList=(obs_x_wh) ] = 0.95777
+RooProduct::wh_WHhh_AntitauEvents_wh_overallSyst_x_Exp[ wh_WHhh_AntitauEvents_wh_nominal * wh_WHhh_AntitauEvents_wh_epsilon ] = 0.95777
+RooProduct::wh_WHhh_AntitauEvents_wh_overallSyst_x_StatUncert[ mc_stat_wh * wh_WHhh_AntitauEvents_wh_overallSyst_x_Exp ] = 0.95777
+RooStats::HistFactory::FlexibleInterpVar::wh_ZH150_wh_epsilon[ paramList=(alpha_ATLAS_LUMI_2012,alpha_ATLAS_EWK,alpha_ATLAS_UE_VH,alpha_ATLAS_PDFacc_VH,alpha_ATLAS_QCDacc_VH,alpha_ATLAS_BR_tautau) ] = 1
+RooHistFunc::wh_ZH150_wh_nominal[ depList=(obs_x_wh) ] = 0
+RooProduct::wh_ZH150_wh_overallNorm_x_sigma_epsilon[ SigXsecOverSM * mu_XS8_WH * wh_ZH150_wh_epsilon ] = 0
+RooProduct::wh_ZH150_wh_overallSyst_x_Exp[ wh_ZH150_wh_nominal * wh_ZH150_wh_overallNorm_x_sigma_epsilon ] = 0
+
+datasets
+--------
+RooDataSet::asimovData(obs_x_wh)
+RooDataSet::obsData(obs_x_wh)
+
+embedded datasets (in pdfs and functions)
+-----------------------------------------
+RooDataHist::wh_WHhh_AntitauEvents_whnominalDHist(obs_x_wh)
+RooDataHist::wh_ZH150_whnominalDHist(obs_x_wh)
+RooDataHist::wh_WH150_whnominalDHist(obs_x_wh)
+
+named sets
+----------
+ModelConfig_GlobalObservables:(nom_alpha_ATLAS_LUMI_2012,nom_alpha_ATLAS_EWK,nom_alpha_ATLAS_UE_VH,nom_alpha_ATLAS_PDFacc_VH,nom_alpha_ATLAS_QCDacc_VH,nom_alpha_ATLAS_BR_tautau,nom_gamma_stat_wh_bin_0,nom_gamma_stat_wh_bin_1,nom_gamma_stat_wh_bin_2,nom_gamma_stat_wh_bin_3,nom_gamma_stat_wh_bin_4,nom_gamma_stat_wh_bin_5,nom_gamma_stat_wh_bin_6,nom_gamma_stat_wh_bin_7)
+ModelConfig_Observables:(obs_x_wh)
+coefList:(binWidth_obs_x_wh_0,binWidth_obs_x_wh_1,binWidth_obs_x_wh_2)
+constraintTerms:(lumiConstraint,alpha_ATLAS_LUMI_2012Constraint,alpha_ATLAS_EWKConstraint,alpha_ATLAS_UE_VHConstraint,alpha_ATLAS_PDFacc_VHConstraint,alpha_ATLAS_QCDacc_VHConstraint,alpha_ATLAS_BR_tautauConstraint,gamma_stat_wh_bin_0_constraint,gamma_stat_wh_bin_1_constraint,gamma_stat_wh_bin_2_constraint,gamma_stat_wh_bin_3_constraint,gamma_stat_wh_bin_4_constraint,gamma_stat_wh_bin_5_constraint,gamma_stat_wh_bin_6_constraint,gamma_stat_wh_bin_7_constraint)
+globalObservables:(nom_alpha_ATLAS_LUMI_2012,nom_alpha_ATLAS_EWK,nom_alpha_ATLAS_UE_VH,nom_alpha_ATLAS_PDFacc_VH,nom_alpha_ATLAS_QCDacc_VH,nom_alpha_ATLAS_BR_tautau,nom_gamma_stat_wh_bin_0,nom_gamma_stat_wh_bin_1,nom_gamma_stat_wh_bin_2,nom_gamma_stat_wh_bin_3,nom_gamma_stat_wh_bin_4,nom_gamma_stat_wh_bin_5,nom_gamma_stat_wh_bin_6,nom_gamma_stat_wh_bin_7)
+likelihoodTerms:(wh_model)
+obsAndWeight:(weightVar,obs_x_wh)
+observables:(obs_x_wh)
+observablesSet:(obs_x_wh)
+shapeList:(L_x_wh_WHhh_AntitauEvents_wh_overallSyst_x_StatUncert,L_x_wh_ZH150_wh_overallSyst_x_Exp,L_x_wh_WH150_wh_overallSyst_x_Exp)
+
+generic objects
+---------------
+RooStats::ModelConfig::ModelConfig
+
+Setting Parameter(s) of Interest as: SigXsecOverSM 
+
+=== Using the following for ModelConfig ===
+Observables:             RooArgSet:: = (obs_x_wh)
+Parameters of Interest:  RooArgSet:: = (SigXsecOverSM)
+Nuisance Parameters:     RooArgSet:: = (alpha_ATLAS_BR_tautau,alpha_ATLAS_EWK,alpha_ATLAS_LUMI_2012,alpha_ATLAS_PDFacc_VH,alpha_ATLAS_QCDacc_VH,alpha_ATLAS_UE_VH,gamma_stat_wh_bin_0,gamma_stat_wh_bin_1,gamma_stat_wh_bin_2,gamma_stat_wh_bin_3,gamma_stat_wh_bin_4,gamma_stat_wh_bin_5,gamma_stat_wh_bin_6,gamma_stat_wh_bin_7)
+Global Observables:      RooArgSet:: = (nom_alpha_ATLAS_LUMI_2012,nom_alpha_ATLAS_EWK,nom_alpha_ATLAS_UE_VH,nom_alpha_ATLAS_PDFacc_VH,nom_alpha_ATLAS_QCDacc_VH,nom_alpha_ATLAS_BR_tautau,nom_gamma_stat_wh_bin_0,nom_gamma_stat_wh_bin_1,nom_gamma_stat_wh_bin_2,nom_gamma_stat_wh_bin_3,nom_gamma_stat_wh_bin_4,nom_gamma_stat_wh_bin_5,nom_gamma_stat_wh_bin_6,nom_gamma_stat_wh_bin_7)
+PDF:                     RooProdPdf::model_wh[ lumiConstraint * alpha_ATLAS_LUMI_2012Constraint * alpha_ATLAS_EWKConstraint * alpha_ATLAS_UE_VHConstraint * alpha_ATLAS_PDFacc_VHConstraint * alpha_ATLAS_QCDacc_VHConstraint * alpha_ATLAS_BR_tautauConstraint * gamma_stat_wh_bin_0_constraint * gamma_stat_wh_bin_1_constraint * gamma_stat_wh_bin_2_constraint * gamma_stat_wh_bin_3_constraint * gamma_stat_wh_bin_4_constraint * gamma_stat_wh_bin_5_constraint * gamma_stat_wh_bin_6_constraint * gamma_stat_wh_bin_7_constraint * wh_model(obs_x_wh) ] = 2.54193e-09
+
+Opening File to hold channel: MEAS_wh_VH_150_model.root
+About to write channel measurement to file
+Writing sample: wh_WHhh_AntitauEvents
+Writing sample: wh_ZH150
+Writing sample: wh_WH150
+Saved all histograms
+Saved Measurement
+Successfully wrote channel to file
+full list of observables:
+RooArgList:: = (obs_x_zh,obs_x_wh)
+[#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name nom_alpha_ATLAS_LUMI_2012 is already in this set
+[#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name nom_alpha_ATLAS_EWK is already in this set
+[#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name nom_alpha_ATLAS_UE_VH is already in this set
+[#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name nom_alpha_ATLAS_PDFacc_VH is already in this set
+[#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name nom_alpha_ATLAS_QCDacc_VH is already in this set
+[#0] ERROR:InputArguments -- RooArgSet::checkForDup: ERROR argument with name nom_alpha_ATLAS_BR_tautau is already in this set
+
+
+------------------
+ Entering combination
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::nom_alpha_ATLAS_LUMI_2012
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::nom_alpha_ATLAS_EWK
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::nom_alpha_ATLAS_UE_VH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::nom_alpha_ATLAS_PDFacc_VH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::nom_alpha_ATLAS_QCDacc_VH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::nom_alpha_ATLAS_BR_tautau
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::nom_gamma_stat_zh_bin_0
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::nom_gamma_stat_zh_bin_1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::nom_gamma_stat_zh_bin_2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::nom_gamma_stat_zh_bin_3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::nom_gamma_stat_zh_bin_4
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::nom_gamma_stat_wh_bin_0
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::nom_gamma_stat_wh_bin_1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::nom_gamma_stat_wh_bin_2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::nom_gamma_stat_wh_bin_3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::nom_gamma_stat_wh_bin_4
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::nom_gamma_stat_wh_bin_5
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::nom_gamma_stat_wh_bin_6
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::nom_gamma_stat_wh_bin_7
+-----------------------------------------
+create toy data for zh,wh
+RooDataSet::AsimovData0[obs_x_zh,channelCat,weight:binWeightAsimov] = 5 entries (4.12959 weighted)
+RooDataSet::AsimovData1[obs_x_wh,channelCat,weight:binWeightAsimov] = 8 entries (28.7587 weighted)
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing dataset asimovDataFullModel
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(combined) changing name of dataset from  asimovDataFullModel to asimovData
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::obs_x_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::obs_x_wh
+Merging data for channel zh
+Merging data for channel wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing dataset zh
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(combined) changing name of dataset from  zh to obsData
+
+RooWorkspace(combined) combined contents
+
+variables
+---------
+(channelCat,nom_alpha_ATLAS_BR_tautau,nom_alpha_ATLAS_EWK,nom_alpha_ATLAS_LUMI_2012,nom_alpha_ATLAS_PDFacc_VH,nom_alpha_ATLAS_QCDacc_VH,nom_alpha_ATLAS_UE_VH,nom_gamma_stat_wh_bin_0,nom_gamma_stat_wh_bin_1,nom_gamma_stat_wh_bin_2,nom_gamma_stat_wh_bin_3,nom_gamma_stat_wh_bin_4,nom_gamma_stat_wh_bin_5,nom_gamma_stat_wh_bin_6,nom_gamma_stat_wh_bin_7,nom_gamma_stat_zh_bin_0,nom_gamma_stat_zh_bin_1,nom_gamma_stat_zh_bin_2,nom_gamma_stat_zh_bin_3,nom_gamma_stat_zh_bin_4,obs_x_wh,obs_x_zh,weightVar)
+
+datasets
+--------
+RooDataSet::asimovData(obs_x_zh,obs_x_wh,weightVar,channelCat)
+RooDataSet::obsData(channelCat,obs_x_zh,obs_x_wh)
+
+named sets
+----------
+ModelConfig_GlobalObservables:(nom_alpha_ATLAS_LUMI_2012,nom_alpha_ATLAS_EWK,nom_alpha_ATLAS_UE_VH,nom_alpha_ATLAS_PDFacc_VH,nom_alpha_ATLAS_QCDacc_VH,nom_alpha_ATLAS_BR_tautau,nom_gamma_stat_zh_bin_0,nom_gamma_stat_zh_bin_1,nom_gamma_stat_zh_bin_2,nom_gamma_stat_zh_bin_3,nom_gamma_stat_zh_bin_4,nom_gamma_stat_wh_bin_0,nom_gamma_stat_wh_bin_1,nom_gamma_stat_wh_bin_2,nom_gamma_stat_wh_bin_3,nom_gamma_stat_wh_bin_4,nom_gamma_stat_wh_bin_5,nom_gamma_stat_wh_bin_6,nom_gamma_stat_wh_bin_7)
+ModelConfig_Observables:(obs_x_zh,obs_x_wh,weightVar,channelCat)
+globalObservables:(nom_alpha_ATLAS_LUMI_2012,nom_alpha_ATLAS_EWK,nom_alpha_ATLAS_UE_VH,nom_alpha_ATLAS_PDFacc_VH,nom_alpha_ATLAS_QCDacc_VH,nom_alpha_ATLAS_BR_tautau,nom_gamma_stat_zh_bin_0,nom_gamma_stat_zh_bin_1,nom_gamma_stat_zh_bin_2,nom_gamma_stat_zh_bin_3,nom_gamma_stat_zh_bin_4,nom_gamma_stat_wh_bin_0,nom_gamma_stat_wh_bin_1,nom_gamma_stat_wh_bin_2,nom_gamma_stat_wh_bin_3,nom_gamma_stat_wh_bin_4,nom_gamma_stat_wh_bin_5,nom_gamma_stat_wh_bin_6,nom_gamma_stat_wh_bin_7)
+observables:(obs_x_zh,obs_x_wh,weightVar,channelCat)
+
+
+
+----------------
+ Importing combined model
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing dataset wh_WHhh_AntitauEvents_whnominalDHist
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing dataset wh_ZH150_whnominalDHist
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing dataset wh_WH150_whnominalDHist
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing dataset zh_AntitauEvents_zhnominalDHist
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing dataset zh_ZH150_zhnominalDHist
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing dataset zh_WH150_zhnominalDHist
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooSimultaneous::simPdf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) using existing copy of RooCategory::channelCat for import of RooSimultaneous::simPdf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProdPdf::model_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooGaussian::lumiConstraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooConstVar::0.028
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::Lumi
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::nominalLumi
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooGaussian::alpha_ATLAS_LUMI_2012Constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooConstVar::1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::alpha_ATLAS_LUMI_2012
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) using existing copy of RooRealVar::nom_alpha_ATLAS_LUMI_2012 for import of RooSimultaneous::simPdf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooGaussian::alpha_ATLAS_EWKConstraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::alpha_ATLAS_EWK
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) using existing copy of RooRealVar::nom_alpha_ATLAS_EWK for import of RooSimultaneous::simPdf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooGaussian::alpha_ATLAS_UE_VHConstraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::alpha_ATLAS_UE_VH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) using existing copy of RooRealVar::nom_alpha_ATLAS_UE_VH for import of RooSimultaneous::simPdf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooGaussian::alpha_ATLAS_PDFacc_VHConstraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::alpha_ATLAS_PDFacc_VH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) using existing copy of RooRealVar::nom_alpha_ATLAS_PDFacc_VH for import of RooSimultaneous::simPdf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooGaussian::alpha_ATLAS_QCDacc_VHConstraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::alpha_ATLAS_QCDacc_VH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) using existing copy of RooRealVar::nom_alpha_ATLAS_QCDacc_VH for import of RooSimultaneous::simPdf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooGaussian::alpha_ATLAS_BR_tautauConstraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::alpha_ATLAS_BR_tautau
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) using existing copy of RooRealVar::nom_alpha_ATLAS_BR_tautau for import of RooSimultaneous::simPdf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooPoisson::gamma_stat_wh_bin_0_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) using existing copy of RooRealVar::nom_gamma_stat_wh_bin_0 for import of RooSimultaneous::simPdf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::gamma_stat_wh_bin_0_poisMean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooConstVar::gamma_stat_wh_bin_0_tau
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::gamma_stat_wh_bin_0
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooPoisson::gamma_stat_wh_bin_1_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) using existing copy of RooRealVar::nom_gamma_stat_wh_bin_1 for import of RooSimultaneous::simPdf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::gamma_stat_wh_bin_1_poisMean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooConstVar::gamma_stat_wh_bin_1_tau
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::gamma_stat_wh_bin_1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooPoisson::gamma_stat_wh_bin_2_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) using existing copy of RooRealVar::nom_gamma_stat_wh_bin_2 for import of RooSimultaneous::simPdf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::gamma_stat_wh_bin_2_poisMean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooConstVar::gamma_stat_wh_bin_2_tau
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::gamma_stat_wh_bin_2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooPoisson::gamma_stat_wh_bin_3_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) using existing copy of RooRealVar::nom_gamma_stat_wh_bin_3 for import of RooSimultaneous::simPdf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::gamma_stat_wh_bin_3_poisMean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooConstVar::gamma_stat_wh_bin_3_tau
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::gamma_stat_wh_bin_3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooPoisson::gamma_stat_wh_bin_4_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) using existing copy of RooRealVar::nom_gamma_stat_wh_bin_4 for import of RooSimultaneous::simPdf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::gamma_stat_wh_bin_4_poisMean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooConstVar::gamma_stat_wh_bin_4_tau
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::gamma_stat_wh_bin_4
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooPoisson::gamma_stat_wh_bin_5_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) using existing copy of RooRealVar::nom_gamma_stat_wh_bin_5 for import of RooSimultaneous::simPdf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::gamma_stat_wh_bin_5_poisMean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooConstVar::gamma_stat_wh_bin_5_tau
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::gamma_stat_wh_bin_5
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooPoisson::gamma_stat_wh_bin_6_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) using existing copy of RooRealVar::nom_gamma_stat_wh_bin_6 for import of RooSimultaneous::simPdf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::gamma_stat_wh_bin_6_poisMean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooConstVar::gamma_stat_wh_bin_6_tau
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::gamma_stat_wh_bin_6
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooPoisson::gamma_stat_wh_bin_7_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) using existing copy of RooRealVar::nom_gamma_stat_wh_bin_7 for import of RooSimultaneous::simPdf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::gamma_stat_wh_bin_7_poisMean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooConstVar::gamma_stat_wh_bin_7_tau
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::gamma_stat_wh_bin_7
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealSumPdf::wh_model
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::L_x_wh_WHhh_AntitauEvents_wh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::wh_WHhh_AntitauEvents_wh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing ParamHistFunc::mc_stat_wh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) using existing copy of RooRealVar::obs_x_wh for import of RooSimultaneous::simPdf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::wh_WHhh_AntitauEvents_wh_overallSyst_x_Exp
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooHistFunc::wh_WHhh_AntitauEvents_wh_nominal
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooConstVar::wh_WHhh_AntitauEvents_wh_epsilon
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::binWidth_obs_x_wh_0
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::L_x_wh_ZH150_wh_overallSyst_x_Exp
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::wh_ZH150_wh_overallSyst_x_Exp
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooHistFunc::wh_ZH150_wh_nominal
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::wh_ZH150_wh_overallNorm_x_sigma_epsilon
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::SigXsecOverSM
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::mu_XS8_WH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooStats::HistFactory::FlexibleInterpVar::wh_ZH150_wh_epsilon
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::binWidth_obs_x_wh_1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::L_x_wh_WH150_wh_overallSyst_x_Exp
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::wh_WH150_wh_overallSyst_x_Exp
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooHistFunc::wh_WH150_wh_nominal
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::wh_WH150_wh_overallNorm_x_sigma_epsilon
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooStats::HistFactory::FlexibleInterpVar::wh_WH150_wh_epsilon
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::binWidth_obs_x_wh_2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProdPdf::model_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooPoisson::gamma_stat_zh_bin_0_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) using existing copy of RooRealVar::nom_gamma_stat_zh_bin_0 for import of RooSimultaneous::simPdf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::gamma_stat_zh_bin_0_poisMean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooConstVar::gamma_stat_zh_bin_0_tau
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::gamma_stat_zh_bin_0
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooPoisson::gamma_stat_zh_bin_1_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) using existing copy of RooRealVar::nom_gamma_stat_zh_bin_1 for import of RooSimultaneous::simPdf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::gamma_stat_zh_bin_1_poisMean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooConstVar::gamma_stat_zh_bin_1_tau
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::gamma_stat_zh_bin_1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooPoisson::gamma_stat_zh_bin_2_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) using existing copy of RooRealVar::nom_gamma_stat_zh_bin_2 for import of RooSimultaneous::simPdf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::gamma_stat_zh_bin_2_poisMean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooConstVar::gamma_stat_zh_bin_2_tau
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::gamma_stat_zh_bin_2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooPoisson::gamma_stat_zh_bin_3_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) using existing copy of RooRealVar::nom_gamma_stat_zh_bin_3 for import of RooSimultaneous::simPdf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::gamma_stat_zh_bin_3_poisMean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooConstVar::gamma_stat_zh_bin_3_tau
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::gamma_stat_zh_bin_3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooPoisson::gamma_stat_zh_bin_4_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) using existing copy of RooRealVar::nom_gamma_stat_zh_bin_4 for import of RooSimultaneous::simPdf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::gamma_stat_zh_bin_4_poisMean
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooConstVar::gamma_stat_zh_bin_4_tau
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::gamma_stat_zh_bin_4
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealSumPdf::zh_model
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::L_x_zh_AntitauEvents_zh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::zh_AntitauEvents_zh_overallSyst_x_StatUncert
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing ParamHistFunc::mc_stat_zh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) using existing copy of RooRealVar::obs_x_zh for import of RooSimultaneous::simPdf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::zh_AntitauEvents_zh_overallSyst_x_Exp
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooHistFunc::zh_AntitauEvents_zh_nominal
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooConstVar::zh_AntitauEvents_zh_epsilon
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::binWidth_obs_x_zh_0
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::L_x_zh_ZH150_zh_overallSyst_x_Exp
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::zh_ZH150_zh_overallSyst_x_Exp
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooHistFunc::zh_ZH150_zh_nominal
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::zh_ZH150_zh_overallNorm_x_sigma_epsilon
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::mu_XS8_ZH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooStats::HistFactory::FlexibleInterpVar::zh_ZH150_zh_epsilon
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::binWidth_obs_x_zh_1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::L_x_zh_WH150_zh_overallSyst_x_Exp
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::zh_WH150_zh_overallSyst_x_Exp
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooHistFunc::zh_WH150_zh_nominal
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooProduct::zh_WH150_zh_overallNorm_x_sigma_epsilon
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooStats::HistFactory::FlexibleInterpVar::zh_WH150_zh_epsilon
+[#1] INFO:ObjectHandling -- RooWorkspace::import(combined) importing RooRealVar::binWidth_obs_x_zh_2
+setting Lumi constant
+could not find variable mu_BR_tautau could not set it to constant
+could not find variable mu_XS8_ggH could not set it to constant
+could not find variable mu_XS8_VBF could not set it to constant
+setting mu_XS8_WH constant
+setting mu_XS8_ZH constant
+Setting Parameter(s) of Interest as: SigXsecOverSM 
+
+=== Using the following for ModelConfig ===
+Observables:             RooArgSet:: = (obs_x_zh,obs_x_wh,weightVar,channelCat)
+Parameters of Interest:  RooArgSet:: = (SigXsecOverSM)
+Nuisance Parameters:     RooArgSet:: = (alpha_ATLAS_BR_tautau,alpha_ATLAS_EWK,alpha_ATLAS_LUMI_2012,alpha_ATLAS_PDFacc_VH,alpha_ATLAS_QCDacc_VH,alpha_ATLAS_UE_VH,gamma_stat_wh_bin_0,gamma_stat_wh_bin_1,gamma_stat_wh_bin_2,gamma_stat_wh_bin_3,gamma_stat_wh_bin_4,gamma_stat_wh_bin_5,gamma_stat_wh_bin_6,gamma_stat_wh_bin_7,gamma_stat_zh_bin_0,gamma_stat_zh_bin_1,gamma_stat_zh_bin_2,gamma_stat_zh_bin_3,gamma_stat_zh_bin_4)
+Global Observables:      RooArgSet:: = (nom_alpha_ATLAS_LUMI_2012,nom_alpha_ATLAS_EWK,nom_alpha_ATLAS_UE_VH,nom_alpha_ATLAS_PDFacc_VH,nom_alpha_ATLAS_QCDacc_VH,nom_alpha_ATLAS_BR_tautau,nom_gamma_stat_zh_bin_0,nom_gamma_stat_zh_bin_1,nom_gamma_stat_zh_bin_2,nom_gamma_stat_zh_bin_3,nom_gamma_stat_zh_bin_4,nom_gamma_stat_wh_bin_0,nom_gamma_stat_wh_bin_1,nom_gamma_stat_wh_bin_2,nom_gamma_stat_wh_bin_3,nom_gamma_stat_wh_bin_4,nom_gamma_stat_wh_bin_5,nom_gamma_stat_wh_bin_6,nom_gamma_stat_wh_bin_7)
+PDF:                     RooSimultaneous::simPdf[ indexCat=channelCat wh=model_wh zh=model_zh ] = 1.27097e-09
+
+Writing combined workspace to file: MEAS_combined_VH_150_model.root
+Writing combined measurement to file: MEAS_combined_VH_150_model.root
+Writing sample: zh_AntitauEvents
+Writing sample: zh_ZH150
+Writing sample: zh_WH150
+Writing sample: wh_WHhh_AntitauEvents
+Writing sample: wh_ZH150
+Writing sample: wh_WH150
+Saved all histograms
+Saved Measurement
